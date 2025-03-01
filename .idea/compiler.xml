@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="23">
+      <module name="serviceExample.libUser" target="23" />
+      <module name="serviceExample.libUser.main" target="23" />
+      <module name="serviceExample.libUser.test" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
