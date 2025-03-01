@@ -22,7 +22,14 @@ dependencyResolutionManagement{
 
 rootProject.name = "serviceExample"
 javaModules {
-    module("lib")
-    module("libImpl")
-    module("app")
+    directory("."){
+        plugin("java-library")
+        module("app"){
+            plugin("application")
+        }
+
+    }
+
+
+
 }
